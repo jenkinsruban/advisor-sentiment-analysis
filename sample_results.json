@@ -1,0 +1,86 @@
+{
+  "rows": [
+    {
+      "sentiment": "positive",
+      "confidence": 1.0,
+      "emotional_tone": "satisfied",
+      "key_indicators": [
+        "advisor",
+        "communication",
+        "investment",
+        "recommendations"
+      ],
+      "summary": "The client expresses satisfaction with the advisor's communication and investment recommendations, stating that the portfolio performance has exceeded expectations.",
+      "recommendations": "None"
+    }
+  ],
+  "model_used": "amazon.titan-text-express-v1",
+  "text_length": 137,
+  "index": 1
+}
+
+{
+  "sentiment": "unknown",
+  "confidence": 0.5,
+  "emotional_tone": "Unable to parse",
+  "key_indicators": [],
+  "summary": "\nThe provided text is neutral in sentiment. The client expresses concern about market volatility and wants to discuss risk management strategies with their advisor. The tone is brief and professional, with no obvious emotional undertones. The key phrases \"market volatility,\" \"risk management strategies,\" and \"discuss with advisor\" are indicative of the client's financial concerns and their desire to seek guidance. However, the text lacks specific details about the client's investment portfolio, financial goals, or any other relevant information that would provide a clearer picture of their sentiment. Overall, the text suggests a neutral stance, with the client seeking professional advice on managing market volatility without expressing any strong emotions or opinions.",
+  "recommendations": "Please review the raw response",
+  "model_used": "amazon.titan-text-express-v1",
+  "text_length": 118,
+  "index": 2
+}
+
+{
+  "rows": [
+    {
+      "text": "The quarterly report shows steady growth. Please continue with the current investment approach.",
+      "sentiment": "positive",
+      "confidence": 0.8,
+      "emotional_tone": "optimistic",
+      "key_indicators": [
+        "growth",
+        "steady",
+        "current"
+      ],
+      "summary": "The text expresses optimism and suggests continuing the current investment approach based on the positive quarterly report.",
+      "recommendations": "None"
+    }
+  ],
+  "model_used": "amazon.titan-text-express-v1",
+  "text_length": 95,
+  "index": 3
+}
+
+{
+  "sentiment": "unknown",
+  "confidence": 0.5,
+  "emotional_tone": "Unable to parse",
+  "key_indicators": [],
+  "summary": "\nSentiment: Positive\n\nConfidence: 0.8\n\nEmotional Tone: Neutral\n\nKey Indicators:\n- Transparency\n- Fee Structure\n- Advisory Relationship\n\nSummary: The advisor expresses a desire for more transparency in the advisory relationship, specifically regarding the fee structure. They are seeking clarity and a better understanding of the fees involved.\n\nRecommendations:\n- Provide clear and transparent information about the fee structure\n- Address any concerns or questions the advisor may have about the fees\n- Maintain open and honest communication throughout the advisory relationship",
+  "recommendations": "Please review the raw response",
+  "model_used": "amazon.titan-text-express-v1",
+  "text_length": 114,
+  "index": 4
+}
+
+{
+  "rows": [
+    {
+      "text": "The advisor has been very responsive to my questions and provided clear explanations of the investment strategy.",
+      "sentiment": "positive",
+      "confidence": 0.9,
+      "emotional_tone": "friendly and helpful",
+      "key_indicators": [
+        "responsive",
+        "clear",
+        "explanations"
+      ],
+      "summary": "The advisor has been very helpful and responsive to my questions, providing clear explanations of the investment strategy.",
+      "recommendations": "continue working with the advisor"
+    }
+  ],
+  "model_used": "amazon.titan-text-express-v1",
+  "text_length": 112,
+  "index": 5
+}
